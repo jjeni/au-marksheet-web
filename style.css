@@ -1,0 +1,236 @@
+body{
+    font-size: 1em;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.whole {
+    box-shadow: 
+    0 0 10px #5a5a5a,
+    0 0 20px #949494,
+    0 0 40px #eaeaea;
+}
+
+.main{
+    margin: 10px;
+    border: 15px double #000000;
+    width: 21cm;
+    height: 30cm;
+    background-color: #c5e1f2;
+    max-width: 100%;
+    aspect-ratio: 210 / 297;
+    position: relative;
+    overflow: hidden;
+    border-image: repeating-linear-gradient(
+      45deg,
+      #5a6d8a 0px,
+      #5a6d8a 2px,
+      #8ca2c0 2px,
+      #8ca2c0 4px
+  ) 30;
+}
+
+.main::before {
+    content: "";
+    position: absolute;
+    inset: 0;                      
+    background: url("Logo.png") no-repeat center;
+    background-size: 240px;
+    opacity: 0.4;  
+    filter: brightness(0.1) invert(1);              
+    pointer-events: none;          
+}
+
+
+
+.header{
+    border-bottom: 1px solid;
+    display: flex;
+    margin-bottom: 0;
+}
+
+.logo{
+    width: 80px;
+    padding: 15px 15px 0px 15px;
+}
+
+.header-title{
+    width: 80%;
+    font-size: 1.2em;
+}
+
+.header-title , p{
+    display: block;
+    
+    text-align: center;
+    margin: 3px;
+}
+
+.header-part-1{
+    padding-right: 3%;
+    margin-left: auto;
+    display: inline;
+
+}
+.header-part-2{
+   padding-right: 35%;
+    font-weight: bold;
+    font-size: 1.3em;
+}
+
+.header-part-3{
+    font-size: small;
+}
+
+.table-1 {
+    text-align: center;
+    border: solid 1px 0px;
+    font:12px sans-serif;
+    border-collapse: collapse;
+    
+}
+
+.table-1 tr {
+    border: solid 1px 0px;
+}
+
+ td {
+    border: solid 1px;
+    width: auto;
+}
+
+
+.style-repeat {
+    background: url("download.jpg");
+    font-weight: bold;
+}
+
+
+.section-texts {
+    width:13%; 
+    text-align: left;  
+    padding-left: 10px;
+}
+
+.table-2 {
+  width: 100%;
+  height: 500px;
+  text-align: center;
+  font: 12px sans-serif;
+  border: 0px 1px 1px 1px solid #333;
+  border-collapse: collapse;
+   table-layout: auto; 
+}
+
+.table-2 th {
+  border-right: 1px solid #333;  
+  border-bottom: 1px solid #333;
+  padding: 4px;
+}
+
+.table-2 tr td {
+  border: none;  
+  height: 10px;          
+  border-right: 1px solid #333;
+  
+  padding: 3px;
+  margin: 0;
+  height: auto;
+  text-align: center;
+  line-height: 1.2;
+}
+
+.table-2 tr:last-child td {
+  border-bottom: 1px solid; 
+  padding-bottom: 20px; 
+}
+
+#left-text{
+    text-align: left;
+    padding-left: 10px;
+}
+
+.background-logo{
+    width: 250px;
+    float: inherit;
+    text-align: center;
+    padding: 0;
+    filter: brightness(0.1) invert(1);
+    opacity: 0.4;
+}
+
+.table-3 {
+    width: 100%;
+    border-collapse: collapse;
+    font: 13px sans-serif;
+    border-left: none;
+    border-right: none;
+    
+}
+
+.table-3 tr {
+    border-left:0px;
+    border-right:0px;
+}
+
+.table-3 tr td {
+    padding: 9px 0px;
+    border-top: none;
+    border-left: none; 
+    border-right: 1px solid black; 
+    border-bottom: 1px solid black;
+    text-align: center;
+
+}
+
+.footer-top {
+    padding: 0 10px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #a9b6c9;
+}
+.footer-top-content {
+    font-size: 0.6em;
+}
+.footer-bottom-first{
+    margin-top: auto;
+    font-size: 0.8em;
+    
+}
+
+.footer-logo-s{
+    width: 100px;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+     background: linear-gradient(to bottom, #a9b6c9 50%, #c3cad2 50%);
+}
+
+.footer-bottom-first{
+    font-size: 0.7em;
+    font-weight: bold;
+    padding-left: 10px;
+    color: rgb(255, 87, 25);
+}
+
+.footer-logo{
+    width: 60px;
+}
+
+.footer-c-sign{
+    font-size: 0.7em;
+}
+
+.footer-text-last{
+    font-size: 0.7em;
+    padding-right: 10px;
+}
+
+.footer-logo-last {
+    width: 170px;
+    height: 80px;
+}
