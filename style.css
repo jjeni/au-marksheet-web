@@ -16,12 +16,10 @@ body{
     margin: 10px;
     border: 15px double #000000;
     width: 21cm;
-    height: 30cm;
     background-color: #c5e1f2;
     max-width: 100%;
     aspect-ratio: 210 / 297;
     position: relative;
-    overflow: hidden;
     border-image: repeating-linear-gradient(
       45deg,
       #5a6d8a 0px,
